@@ -1,0 +1,126 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    float: left;
+    height: 50px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav li {
+    display: inline;
+    text-decoration: underline;
+    color: seashell;
+    padding: 10px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./resources/images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.mission h2, 
+.mission h4 {
+    width: 100%;
+    background-color: black;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+section2 {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured {
+    margin: 75px auto;
+}
+
+.food-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.food img {
+    height: 200px;
+    width: 300px;
+    margin: 0px 10px;
+}
+
+.food p {
+    margin: 10px auto;
+}
+
+.section3 {
+    display: flex;
+    height: 500px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./resources/images/img-locations-background.jpg);
+    margin: 50px auto;
+}
+
+
+.locations-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+    background-color: black;
+    margin: 15px 40px;
+}
+
+.section4 {
+    height: 200px;
+    width: auto;
+}
+
+
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
